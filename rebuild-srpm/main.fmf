@@ -1,0 +1,25 @@
+summary: The test performs rebuild of given component
+description: |
+    This test does:
+    1) snapshot of installed packages
+    2) pulls the srpm
+    3) pulls all build requires for the srpm
+    4) rebuild & assert results
+    5) restore system to state snapshotted in 1)
+contact: Martin Kyral <mkyral@redhat.com>
+component:
+test: ./runtest.sh
+path: /rebuild-srpm
+framework: beakerlib
+require:
+- url: https://github.com/beakerlib/distribution.git
+  name: /RpmSnapshot
+  ref: master
+recommend:
+- rpm-build
+- gcc
+- yum-utils
+- psmisc
+tag:
+ - dependencies
+duration: 3h
