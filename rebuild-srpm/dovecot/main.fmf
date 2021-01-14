@@ -1,0 +1,15 @@
+# Which component to build
+test: COMPONENT=dovecot ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requies_pkgconf
+ - build_requies_libtool
+ - build_requies_automake
+ - build_requies_autoconf
+ - build_requies_gettext
+ - build_requies_zlib
+ - build_requies_openssl
+ - build_requies_krb5
+ - build_requies_curl
+ - build_requies_openldap
