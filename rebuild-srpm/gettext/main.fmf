@@ -1,0 +1,11 @@
+# Which component to build
+test: COMPONENT=gettext ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - glib2
+ - git
+ - libxml2
+ - chrpath
+ - ncurses
+ - xz

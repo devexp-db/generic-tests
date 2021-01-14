@@ -1,0 +1,9 @@
+# Which component to build
+test: COMPONENT=bash ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - autoconf
+ - gettext
+ - bison
+ - ncurses

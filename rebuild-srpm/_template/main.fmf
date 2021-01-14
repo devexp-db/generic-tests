@@ -1,0 +1,5 @@
+# Which component to build
+test: COMPONENT=__component__ ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:

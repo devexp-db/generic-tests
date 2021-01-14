@@ -1,0 +1,13 @@
+# Which component to build
+test: COMPONENT=dracut ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - asciidoc
+ - bash
+ - gcc
+ - pkgconf
+ - systemd
+ - git
+ - libxslt
+ - docbook-style-xsl

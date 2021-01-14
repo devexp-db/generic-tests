@@ -1,0 +1,14 @@
+# Which component to build
+test: COMPONENT=cockpit ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - pkgconf
+ - gcc
+ - automake
+ - autoconf
+ - gettext
+ - systemd
+ - zlib
+ - glib2
+ - openssl

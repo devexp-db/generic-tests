@@ -1,0 +1,12 @@
+# Which component to build
+test: COMPONENT=libpq ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - gcc
+ - gettext
+ - zlib
+ - openssl
+ - bison
+ - flex
+ - glibc
