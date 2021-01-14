@@ -3,7 +3,7 @@ test: COMPONENT=bash ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - autoconf
- - gettext
- - bison
- - ncurses
+ - build_requies_autoconf
+ - build_requies_gettext
+ - build_requies_bison
+ - build_requies_ncurses

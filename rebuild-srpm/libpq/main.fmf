@@ -3,10 +3,10 @@ test: COMPONENT=libpq ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - gcc
- - gettext
- - zlib
- - openssl
- - bison
- - flex
- - glibc
+ - build_requies_gcc
+ - build_requies_gettext
+ - build_requies_zlib
+ - build_requies_openssl
+ - build_requies_bison
+ - build_requies_flex
+ - build_requies_glibc
