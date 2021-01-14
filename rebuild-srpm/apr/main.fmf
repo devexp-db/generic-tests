@@ -3,7 +3,7 @@ test: COMPONENT=apr ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_autoconf
- - build_requies_gcc
- - build_requies_libtool
- - build_requies_util-linux
+ - build_requires_autoconf
+ - build_requires_gcc
+ - build_requires_libtool
+ - build_requires_util-linux

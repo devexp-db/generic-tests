@@ -3,9 +3,9 @@ test: COMPONENT=gettext ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_glib2
- - build_requies_git
- - build_requies_libxml2
- - build_requies_chrpath
- - build_requies_ncurses
- - build_requies_xz
+ - build_requires_glib2
+ - build_requires_git
+ - build_requires_libxml2
+ - build_requires_chrpath
+ - build_requires_ncurses
+ - build_requires_xz

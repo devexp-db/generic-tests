@@ -3,7 +3,7 @@ test: COMPONENT=bison ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_autoconf
- - build_requies_flex
- - build_requies_m4
+ - build_requires_autoconf
+ - build_requires_flex
+ - build_requires_m4
 

@@ -3,11 +3,11 @@ test: COMPONENT=dracut ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_asciidoc
- - build_requies_bash
- - build_requies_gcc
- - build_requies_pkgconf
- - build_requies_systemd
- - build_requies_git
- - build_requies_libxslt
- - build_requies_docbook-style-xsl
+ - build_requires_asciidoc
+ - build_requires_bash
+ - build_requires_gcc
+ - build_requires_pkgconf
+ - build_requires_systemd
+ - build_requires_git
+ - build_requires_libxslt
+ - build_requires_docbook-style-xsl

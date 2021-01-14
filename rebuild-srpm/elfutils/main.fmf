@@ -3,13 +3,13 @@ test: COMPONENT=elfutils ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_pkgconf
- - build_requies_gcc
- - build_requies_gettext
- - build_requies_systemd
- - build_requies_zlib
- - build_requies_bison
- - build_requies_flex
- - build_requies_curl
- - build_requies_bzip2
- - build_requies_xz
+ - build_requires_pkgconf
+ - build_requires_gcc
+ - build_requires_gettext
+ - build_requires_systemd
+ - build_requires_zlib
+ - build_requires_bison
+ - build_requires_flex
+ - build_requires_curl
+ - build_requires_bzip2
+ - build_requires_xz

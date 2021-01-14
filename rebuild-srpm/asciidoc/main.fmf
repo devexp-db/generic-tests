@@ -3,14 +3,14 @@ test: COMPONENT=asciidoc ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_autoconf
- - build_requies_automake
- - build_requies_make
- - build_requies_docbook-style-xsl
- - build_requies_automake
- - build_requies_libxslt
- - build_requies_texlive
- - build_requies_graphviz
- - build_requies_symlinks
- - build_requies_source-highlight
+ - build_requires_autoconf
+ - build_requires_automake
+ - build_requires_make
+ - build_requires_docbook-style-xsl
+ - build_requires_automake
+ - build_requires_libxslt
+ - build_requires_texlive
+ - build_requires_graphviz
+ - build_requires_symlinks
+ - build_requires_source-highlight
 

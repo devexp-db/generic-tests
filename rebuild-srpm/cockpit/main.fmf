@@ -3,12 +3,12 @@ test: COMPONENT=cockpit ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_pkgconf
- - build_requies_gcc
- - build_requies_automake
- - build_requies_autoconf
- - build_requies_gettext
- - build_requies_systemd
- - build_requies_zlib
- - build_requies_glib2
- - build_requies_openssl
+ - build_requires_pkgconf
+ - build_requires_gcc
+ - build_requires_automake
+ - build_requires_autoconf
+ - build_requires_gettext
+ - build_requires_systemd
+ - build_requires_zlib
+ - build_requires_glib2
+ - build_requires_openssl

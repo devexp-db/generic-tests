@@ -3,13 +3,13 @@ test: COMPONENT=dovecot ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
- - build_requies_pkgconf
- - build_requies_libtool
- - build_requies_automake
- - build_requies_autoconf
- - build_requies_gettext
- - build_requies_zlib
- - build_requies_openssl
- - build_requies_krb5
- - build_requies_curl
- - build_requies_openldap
+ - build_requires_pkgconf
+ - build_requires_libtool
+ - build_requires_automake
+ - build_requires_autoconf
+ - build_requires_gettext
+ - build_requires_zlib
+ - build_requires_openssl
+ - build_requires_krb5
+ - build_requires_curl
+ - build_requires_openldap
