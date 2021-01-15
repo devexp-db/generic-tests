@@ -13,3 +13,6 @@ tag:
  - build_requires_krb5
  - build_requires_curl
  - build_requires_openldap
+
+recommend:
+ - dovecot

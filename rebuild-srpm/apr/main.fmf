@@ -7,3 +7,6 @@ tag:
  - build_requires_gcc
  - build_requires_libtool
  - build_requires_util-linux
+
+recommend:
+ - apr

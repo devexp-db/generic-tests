@@ -3,3 +3,6 @@ test: COMPONENT=__component__ ./runtest.sh
 
 # List components that this test is supposed to be run for
 tag:
+
+recommend:
+ - __component__

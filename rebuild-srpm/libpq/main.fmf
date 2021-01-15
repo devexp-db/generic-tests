@@ -10,3 +10,6 @@ tag:
  - build_requires_bison
  - build_requires_flex
  - build_requires_glibc
+
+recommend:
+ - libpq

@@ -11,3 +11,6 @@ tag:
  - build_requires_git
  - build_requires_libxslt
  - build_requires_docbook-style-xsl
+
+recommend:
+ - dracut

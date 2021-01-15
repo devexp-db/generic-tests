@@ -9,3 +9,6 @@ tag:
  - build_requires_chrpath
  - build_requires_ncurses
  - build_requires_xz
+
+recommend:
+ - gettext

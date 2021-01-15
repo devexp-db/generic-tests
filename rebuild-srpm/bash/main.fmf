@@ -7,3 +7,6 @@ tag:
  - build_requires_gettext
  - build_requires_bison
  - build_requires_ncurses
+
+recommend:
+ - bash

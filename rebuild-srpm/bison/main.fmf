@@ -7,3 +7,6 @@ tag:
  - build_requires_flex
  - build_requires_m4
 
+
+recommend:
+ - bison
