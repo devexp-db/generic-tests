@@ -13,5 +13,5 @@ tag:
  - build_requires_glib2
  - build_requires_openssl
 
-recommend:
+recommend+:
  - cockpit

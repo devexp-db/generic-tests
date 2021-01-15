@@ -14,5 +14,5 @@ tag:
  - build_requires_curl
  - build_requires_openldap
 
-recommend:
+recommend+:
  - dovecot

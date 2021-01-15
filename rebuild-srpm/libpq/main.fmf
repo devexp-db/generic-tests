@@ -11,5 +11,5 @@ tag:
  - build_requires_flex
  - build_requires_glibc
 
-recommend:
+recommend+:
  - libpq

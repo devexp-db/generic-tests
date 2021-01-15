@@ -14,5 +14,5 @@ tag:
  - build_requires_bzip2
  - build_requires_xz
 
-recommend:
+recommend+:
  - elfutils

@@ -8,5 +8,5 @@ tag:
  - build_requires_libtool
  - build_requires_util-linux
 
-recommend:
+recommend+:
  - apr

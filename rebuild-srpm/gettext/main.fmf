@@ -10,5 +10,5 @@ tag:
  - build_requires_ncurses
  - build_requires_xz
 
-recommend:
+recommend+:
  - gettext

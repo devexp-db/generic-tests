@@ -8,5 +8,5 @@ tag:
  - build_requires_m4
 
 
-recommend:
+recommend+:
  - bison

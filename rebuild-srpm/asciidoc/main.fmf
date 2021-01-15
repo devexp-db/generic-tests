@@ -15,5 +15,5 @@ tag:
  - build_requires_source-highlight
 
 
-recommend:
+recommend+:
  - asciidoc

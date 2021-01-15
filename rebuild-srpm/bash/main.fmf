@@ -8,5 +8,5 @@ tag:
  - build_requires_bison
  - build_requires_ncurses
 
-recommend:
+recommend+:
  - bash
