@@ -16,10 +16,32 @@ require:
   name: /RpmSnapshot
   ref: master
 recommend:
-- rpm-build
+- bash
+- bzip2
+- coreutils
+- cpio
+- diffutils
+- findutils
+- gawk
 - gcc
-- yum-utils
+- gcc-c++
+- grep
+- gzip
+- info
+- make
+- patch
 - psmisc
+- redhat-release
+- redhat-rpm-config
+- rpm-build
+- sed
+- shadow-utils
+- tar
+- unzip
+- util-linux
+- which
+- xz
+- yum-utils
 tag:
  - dependencies
 duration: 3h
