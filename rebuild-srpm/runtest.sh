@@ -59,7 +59,7 @@ rlJournalStart
             rlRun "chown $BUILDUSER:users ~$BUILDUSER/$COMPONENT*src.rpm"
             rlRun "rpm -i --nodeps $COMPONENT*src.rpm" \
                     0 "Installing the source rpm"
-            rlRun "yum-builddep --enablerepo='*' $PARAMS -y ~/rpmbuild/SPECS/${COMPONENT}.spec"
+            rlRun "yum-builddep --enablerepo='*' --disablerepo=*-source $PARAMS -y ~/rpmbuild/SPECS/${COMPONENT}.spec"
         rlPhaseEnd
 
         rlPhaseStartTest "Rebuild"
