@@ -1,0 +1,16 @@
+# Which component to build
+test: COMPONENT=exiv2 ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_zlib
+ - build_requires_cmake
+ - build_requires_libxslt
+ - build_requires_doxygen
+ - build_requires_expat
+ - build_requires_graphviz
+
+recommend+:
+- exiv2

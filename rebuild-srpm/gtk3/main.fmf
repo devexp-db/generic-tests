@@ -1,0 +1,13 @@
+# Which component to build
+test: COMPONENT=gtk3 ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_desktop-file-utils
+ - build_requires_cups
+
+recommend+:
+- gtk3

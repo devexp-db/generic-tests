@@ -1,0 +1,14 @@
+# Which component to build
+test: COMPONENT=mod_auth_mellon ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_gcc
+ - build_requires_openssl
+ - build_requires_glib2
+ - build_requires_curl
+ - build_requires_httpd
+
+recommend+:
+- mod_auth_mellon

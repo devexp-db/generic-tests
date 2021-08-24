@@ -1,0 +1,11 @@
+# Which component to build
+test: COMPONENT=microcode_ctl ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_systemd
+ - build_requires_util-linux
+ - build_requires_coreutils
+
+recommend+:
+- microcode_ctl

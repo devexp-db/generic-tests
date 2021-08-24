@@ -1,0 +1,10 @@
+# Which component to build
+test: COMPONENT=shim ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_pesign
+ - build_requires_efi-rpm-macros
+
+recommend+:
+- shim

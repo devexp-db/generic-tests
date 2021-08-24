@@ -1,0 +1,18 @@
+# Which component to build
+test: COMPONENT=pipewire ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_gcc
+ - build_requires_systemd
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_ncurses
+ - build_requires_doxygen
+ - build_requires_alsa-lib
+ - build_requires_graphviz
+ - build_requires_pulseaudio
+ - build_requires_xmltoman
+
+recommend+:
+- pipewire

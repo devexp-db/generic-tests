@@ -1,0 +1,18 @@
+# Which component to build
+test: COMPONENT=flatpak ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_systemd
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_bison
+ - build_requires_libcap
+ - build_requires_docbook-style-xsl
+ - build_requires_selinux-policy
+ - build_requires_docbook-dtds
+ - build_requires_bubblewrap
+
+recommend+:
+- flatpak

@@ -1,0 +1,17 @@
+# Which component to build
+test: COMPONENT=tuned ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_python3.9
+ - build_requires_systemd
+ - build_requires_desktop-file-utils
+ - build_requires_asciidoc
+ - build_requires_dbus-python
+ - build_requires_pygobject3
+ - build_requires_python-pyudev
+ - build_requires_python-configobj
+
+recommend+:
+- tuned

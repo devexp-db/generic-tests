@@ -1,0 +1,18 @@
+# Which component to build
+test: COMPONENT=mesa ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_gcc
+ - build_requires_python3.9
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_bison
+ - build_requires_flex
+ - build_requires_llvm
+ - build_requires_kernel
+ - build_requires_vulkan-headers
+ - build_requires_python-mako
+
+recommend+:
+- mesa

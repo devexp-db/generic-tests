@@ -1,0 +1,16 @@
+# Which component to build
+test: COMPONENT=ipmitool ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_systemd
+ - build_requires_autoconf
+ - build_requires_automake
+ - build_requires_libtool
+ - build_requires_openssl
+ - build_requires_ncurses
+ - build_requires_readline
+
+recommend+:
+- ipmitool

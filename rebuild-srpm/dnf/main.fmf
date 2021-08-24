@@ -1,0 +1,18 @@
+# Which component to build
+test: COMPONENT=dnf ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_python3.9
+ - build_requires_systemd
+ - build_requires_gettext
+ - build_requires_cmake
+ - build_requires_rpm
+ - build_requires_bash-completion
+ - build_requires_libmodulemd
+ - build_requires_gpgme
+ - build_requires_libdnf
+ - build_requires_libcomps
+
+recommend+:
+- dnf

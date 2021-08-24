@@ -1,0 +1,16 @@
+# Which component to build
+test: COMPONENT=hivex ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_python3.9
+ - build_requires_perl
+ - build_requires_libxml2
+ - build_requires_perl-generators
+ - build_requires_gnupg2
+ - build_requires_readline
+ - build_requires_ruby
+
+recommend+:
+- hivex

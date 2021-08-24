@@ -1,0 +1,8 @@
+# Which component to build
+test: COMPONENT=rhncfg ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+
+recommend+:
+- rhncfg

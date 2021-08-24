@@ -1,0 +1,10 @@
+# Which component to build
+test: COMPONENT=kpatch ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_python3.9
+ - build_requires_dnf
+
+recommend+:
+- kpatch

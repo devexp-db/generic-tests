@@ -1,0 +1,18 @@
+# Which component to build
+test: COMPONENT=initscripts ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_gcc
+ - build_requires_systemd
+ - build_requires_pkgconf
+ - build_requires_gettext
+ - build_requires_git
+ - build_requires_glib2
+ - build_requires_popt
+ - build_requires_setup
+ - build_requires_filesystem
+
+recommend+:
+- initscripts

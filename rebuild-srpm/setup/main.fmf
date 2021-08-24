@@ -1,0 +1,13 @@
+# Which component to build
+test: COMPONENT=setup ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_make
+ - build_requires_systemd
+ - build_requires_perl
+ - build_requires_bash
+ - build_requires_tcsh
+
+recommend+:
+- setup
