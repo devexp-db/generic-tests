@@ -8,6 +8,7 @@ tag:
  - build_requires_cmake
  - build_requires_check
  - build_requires_boost
+ - build_requires_scons
 
 recommend+:
 - galera
