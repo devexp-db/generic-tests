@@ -1,0 +1,19 @@
+# Which component to build
+test: COMPONENT=fwupd ./runtest.sh
+
+# List components that this test is supposed to be run for
+tag:
+ - build_requires_python3.9
+ - build_requires_systemd
+ - build_requires_gettext
+ - build_requires_git
+ - build_requires_glib2
+ - build_requires_curl
+ - build_requires_elfutils
+ - build_requires_gnutls
+ - build_requires_sqlite
+ - build_requires_bash-completion
+ - build_requires_libarchive
+
+recommend+:
+- fwupd
