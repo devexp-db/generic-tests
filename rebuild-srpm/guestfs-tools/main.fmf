@@ -1,9 +1,0 @@
-# Which component to build
-test: COMPONENT=guestfs-tools ./runtest.sh
-
-# List components that this test is supposed to be run for
-tag:
- - build_requires_pcre2
-
-recommend+:
- - guestfs-tools
