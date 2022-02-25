@@ -6,7 +6,6 @@ tag:
  - build_requires_python3.9
  - build_requires_systemd
  - build_requires_gettext
- - build_requires_cmake
  - build_requires_rpm
  - build_requires_bash-completion
  - build_requires_libmodulemd
