@@ -10,7 +10,6 @@ tag:
  - build_requires_openssl
  - build_requires_zlib
  - build_requires_git
- - build_requires_cmake
  - build_requires_ncurses
  - build_requires_desktop-file-utils
  - build_requires_libarchive
